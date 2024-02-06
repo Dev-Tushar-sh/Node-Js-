@@ -1,0 +1,19 @@
+current version
+^4.18.3
+
+1st part -> 4
+2nd part -> 18
+3rd part -> 2
+
+3rd part -> (last part) - Minor Fixes (Optional)
+
+2nd part -> Recommended Bug Fixes (may be a sequrity fix)
+
+1st part -> Major Update 
+
+^ this symbol means we locked the update to 4th version,
+the minor updates can automatically updated 
+but if version 5 is realesed then this not going to update to 5th version 
+without explicitly telling
+
+~4.18.3 this means only 3rd part is going to update not the 2nd and 1st
