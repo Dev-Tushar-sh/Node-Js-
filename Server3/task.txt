@@ -1,0 +1,17 @@
+REST API - JSON
+
+GET /users - List all the users as  html 
+
+GET /api/users - render the data as a json
+
+Dynamic path parameters    -------- Get /api/users/:id ->variable id
+GET /api/users/1 - get the user whose ID is 1
+
+POST /api/users - Create new user
+
+PAATCH /api/users/1 - Edit the user with ID 1
+
+DELETE /api/users/1 - Delete theuser with ID 1
+
+
+for hardcoding data for practice we can use mockaroo.com
