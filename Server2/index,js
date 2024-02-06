@@ -1,0 +1,18 @@
+const express = require("express");
+const app = express();
+
+function home(req,res)
+{
+    return res.send(`Hello ${ req.query.name } you are in Home Page`);
+}
+
+function about(req,res)
+{
+    return res.send("Hello you are in About Page");
+}
+
+app.get("/",home);
+app.get("/about",about);
+
+app.listen(8000,() => console.log("Server Started!!!!"));
+
