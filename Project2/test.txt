@@ -1,0 +1,10 @@
+How mongoose works
+
+Schema ->  Define the structure
+    Then we make Models using Schema
+    Using Model we do CRUD operations
+
+show dbs
+use dbname
+show collections
+db.users.find({})
